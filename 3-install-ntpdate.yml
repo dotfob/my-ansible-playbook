@@ -1,5 +1,0 @@
----
-- hosts: local
-  tasks:
-   - name: Instala pacote ntpdate
-     apt: name=ntpdate state=present update_cache=true
