@@ -1,7 +1,0 @@
----
-- hosts: local
-  vars_files:
-    - /home/suporte/playbooks/vars.yml
-  tasks:
-   - name: Instala pacotes atraves de variaveis
-     apt: name={{ pacotes }} state=present update_cache=true
